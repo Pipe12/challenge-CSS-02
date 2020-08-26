@@ -17,20 +17,19 @@ main {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px; }
-
-.card {
-  border-radius: 15px;
-  overflow: hidden;
-  background: HONEYDEW;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .card__img {
-    width: 200px;
-    height: 120px;
-    object-fit: cover; }
-  .card__subtitle {
-    margin-top: 0px; }
+  .cards .card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: HONEYDEW;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .cards .card__img {
+      width: 200px;
+      height: 120px;
+      object-fit: cover; }
+    .cards .card__subtitle {
+      margin-top: 0px; }
 
 .social {
   display: flex;
@@ -52,11 +51,11 @@ footer {
     margin: 0px; }
   footer .links {
     margin: 15px 0px; }
-    footer .links .link-1 {
+    footer .links .link--orchid {
       color: ORCHID; }
-    footer .links .link-2 {
+    footer .links .link--mediumturquoise {
       color: MEDIUMTURQUOISE; }
-    footer .links .link-3 {
+    footer .links .link--salmon {
       color: SALMON; }
 
 /*# sourceMappingURL=new_style.css.map */
