@@ -50,15 +50,13 @@ footer {
   padding: 30px 0px; }
   footer p {
     margin: 0px; }
-
-.links {
-  margin: 15px 0px; }
-
-.link-1 {
-  color: ORCHID; }
-.link-2 {
-  color: MEDIUMTURQUOISE; }
-.link-3 {
-  color: SALMON; }
+  footer .links {
+    margin: 15px 0px; }
+    footer .links .link-1 {
+      color: ORCHID; }
+    footer .links .link-2 {
+      color: MEDIUMTURQUOISE; }
+    footer .links .link-3 {
+      color: SALMON; }
 
 /*# sourceMappingURL=new_style.css.map */
